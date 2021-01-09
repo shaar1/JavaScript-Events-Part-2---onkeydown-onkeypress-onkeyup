@@ -70,7 +70,7 @@ myInput.onkeypress = function () {
 alert("You Are pressed To Key Now");
 };
 */
-
+/*
 var myInput = document.getElementById("input"),
 
 myDiv = document.getElementById("div");
@@ -83,4 +83,55 @@ myInput.onkeyup = function () {
 alert("You Are pressed To Key Now");
 };
 
+*/
+/*
+var myInput = document.getElementById("input"),
 
+    myDiv = document.getElementById("div");
+
+
+    myInput.onkeyup = function () {
+
+        "use strict";
+
+        myDiv.innerHTML = myInput.value * 3.75;
+ };
+ */
+/*
+var myInput = document.getElementById("input"),
+
+myDiv = document.getElementById("div");
+
+
+myInput.onkeydown = function () {
+
+    "use strict";
+
+    myDiv.innerHTML = myInput.value * 3.75;
+};
+*/
+/*
+var myInput = document.getElementById("input"),
+
+myDiv = document.getElementById("div");
+
+
+myInput.onkeypress = function () {
+
+    "use strict";
+
+    myDiv.innerHTML = myInput.value * 3.75;
+};
+*/
+
+var myInput = document.getElementById("input"),
+
+myDiv = document.getElementById("div");
+
+
+myInput.onkeyup = function () {
+
+    "use strict";
+
+    myDiv.innerHTML = myInput.value * 3.75;
+};

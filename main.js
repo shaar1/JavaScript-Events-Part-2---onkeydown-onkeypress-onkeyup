@@ -28,12 +28,12 @@ console.log(myDiv);
 
 var myInput = document.getElementById("input"),
 
-    myDiv = document.getElementById("div"),
+    myDiv = document.getElementById("div");
 
-    myButton = document.getElementById("button");
 
-    myButton.onclick = function () {
+    myInput.onkeyup = function () {
 
-    "use strict";
+        "use strict";
 
-    myDiv.innerHTML = myInput.value * 3.75;
+        myDiv.innerHTML = myInput.value * 3.75;
+ };

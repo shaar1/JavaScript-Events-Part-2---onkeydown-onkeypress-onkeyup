@@ -38,7 +38,7 @@ var myInput = document.getElementById("input"),
         myDiv.innerHTML = myInput.value * 3.75;
  };
  */
-
+/*
 var myInput = document.getElementById("input"),
 
 myDiv = document.getElementById("div");
@@ -49,4 +49,19 @@ myInput.onkeydown = function () {
     "use strict";
 
 alert("You Are Going To Key Now");
+};
+*/
+
+
+
+var myInput = document.getElementById("input"),
+
+myDiv = document.getElementById("div");
+
+
+myInput.onkeypress = function () {
+
+    "use strict";
+
+alert("You Are pressed To Key Now");
 };

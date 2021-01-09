@@ -1,5 +1,9 @@
 /* global console, alert, prompt */
 
+// onkeydown
+// onkeypress
+// onkeyup
+
 /*
 var myInput = document.getElementById("input"),
 
@@ -53,7 +57,7 @@ alert("You Are Going To Key Now");
 */
 
 
-
+/*
 var myInput = document.getElementById("input"),
 
 myDiv = document.getElementById("div");
@@ -65,3 +69,18 @@ myInput.onkeypress = function () {
 
 alert("You Are pressed To Key Now");
 };
+*/
+
+var myInput = document.getElementById("input"),
+
+myDiv = document.getElementById("div");
+
+
+myInput.onkeyup = function () {
+
+    "use strict";
+
+alert("You Are pressed To Key Now");
+};
+
+
